@@ -1,0 +1,26 @@
+=== Sequential baseline ===
+times: [0.219, 0.211, 0.255]
+median: 0.219
+result rows/groups: 134
+
+=== Parallel, processes=2 ===
+times: [0.835, 0.861, 0.891]
+median: 0.861
+result rows/groups: 134
+
+=== Parallel, processes=4 ===
+times: [0.942, 0.902, 0.913]
+median: 0.913
+result rows/groups: 134
+
+=== Parallel, processes=8 ===
+times: [1.148, 1.165, 1.162]
+median: 1.162
+result rows/groups: 134
+
+=== Summary (execution time in seconds) ===
+Run                         Time (s)    Rows/groups   
+Sequential baseline         0.219       134           
+Parallel (processes=2)      0.861       134           
+Parallel (processes=4)      0.913       134           
+Parallel (processes=8)      1.162       134           

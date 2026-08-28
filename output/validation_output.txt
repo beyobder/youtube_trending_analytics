@@ -1,0 +1,32 @@
+=== Row-count check before/after join (per country) ===
+  CA: 1,000 -> 1,000  OK
+  DE: 1,000 -> 1,000  OK
+  FR: 1,000 -> 1,000  OK
+  GB: 950 -> 950  OK
+  IN: 910 -> 910  OK
+  JP: 500 -> 500  OK
+  KR: 850 -> 850  OK
+  MX: 990 -> 990  OK
+  RU: 1,000 -> 1,000  OK
+  US: 1,000 -> 1,000  OK
+All countries match: True
+
+=== Parallel (processes=2) vs sequential ===
+rows match: True
+max abs diff views: 0
+max abs diff likes: 0
+PASSED
+
+=== Parallel (processes=4) vs sequential ===
+rows match: True
+max abs diff views: 0
+max abs diff likes: 0
+PASSED
+
+=== Parallel (processes=8) vs sequential ===
+rows match: True
+max abs diff views: 0
+max abs diff likes: 0
+PASSED
+
+OVERALL: ALL CHECKS PASSED

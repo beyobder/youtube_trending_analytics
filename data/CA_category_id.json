@@ -1,0 +1,206 @@
+{
+  "kind": "youtube#videoCategoryListResponse",
+  "etag": "yX_ZFsan2Cw7gFp6r7O4",
+  "items": [
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "1C5Jau2RJtBRnlWmTSHf",
+      "id": "1",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Autos & Vehicles",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "6pWkLUyifDLkDmWJ6UuV",
+      "id": "2",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Music",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "TAIjvFu7WICPhDeOZIiB",
+      "id": "3",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Film & Animation",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "OB_Y6sHrFH2ZUCr_lgot",
+      "id": "4",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Nonprofits & Activism",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "u2iXW7GboIRoL3u6aHwn",
+      "id": "5",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Comedy",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "MztVuaP-coUNEhEkk-iq",
+      "id": "6",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Gaming",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "q8vH2BzNZV45pFCiRcDC",
+      "id": "7",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Sports",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "ajhDieQjEJ-Bq8F80ymm",
+      "id": "8",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Travel & Events",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "3T207gmhZRnFyy5r2xJ7",
+      "id": "9",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Education",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "Fj4mgblEv0-9BZhvWaXH",
+      "id": "10",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Music",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "6K2-tyLBhhOhg9uhkxii",
+      "id": "11",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Nonprofits & Activism",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "EZpFfk1OHAOEHYqM6Ojb",
+      "id": "12",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "People & Blogs",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "6mjBHqSiFVKu4MbMnrHo",
+      "id": "13",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Science & Technology",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "ntIKARAH-Ggl2JfaQqHu",
+      "id": "14",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Howto & Style",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "42bojteVs3qfNUfTAFnT",
+      "id": "15",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Autos & Vehicles",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "0tEuw0dwQ0FIunWe8Cz6",
+      "id": "16",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Sports",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "SNDCdyZQJiJSZQdoHwHe",
+      "id": "17",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Film & Animation",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "n3SO3oXyGf3azU3iQOpM",
+      "id": "18",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Science & Technology",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "N0PZLqy1WwMZaMKA3P74",
+      "id": "19",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "Entertainment",
+        "assignable": true
+      }
+    },
+    {
+      "kind": "youtube#videoCategory",
+      "etag": "4B8vkKQlENCzsdfF8j61",
+      "id": "20",
+      "snippet": {
+        "channelId": "UCBR8-60-B28hp2BmDPdntcQ",
+        "title": "People & Blogs",
+        "assignable": true
+      }
+    }
+  ]
+}

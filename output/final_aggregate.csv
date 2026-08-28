@@ -1,0 +1,135 @@
+country_code,category_title,total_views,total_likes,video_rows
+CA,Autos & Vehicles,177301,7957,13
+CA,Comedy,1614807,71845,63
+CA,Education,202162,9002,14
+CA,Entertainment,17299518,747171,177
+CA,Film & Animation,685858,28822,40
+CA,Gaming,1507390,59254,55
+CA,Howto & Style,297866,16987,16
+CA,Music,48632534,1992014,399
+CA,Nonprofits & Activism,112165,3466,11
+CA,People & Blogs,1572764,63192,64
+CA,Science & Technology,737298,35336,38
+CA,Sports,3049776,115969,100
+CA,Travel & Events,116742,6435,10
+DE,Autos & Vehicles,232169,13726,13
+DE,Comedy,10018493,404373,197
+DE,Education,143286,5894,13
+DE,Entertainment,62538654,2554887,438
+DE,Film & Animation,522324,19882,33
+DE,Gaming,2364235,121936,80
+DE,Howto & Style,749320,38785,23
+DE,News & Politics,723960,39715,13
+DE,Nonprofits & Activism,97718,4045,6
+DE,People & Blogs,1225987,47496,47
+DE,Pets & Animals,308870,12865,8
+DE,Science & Technology,662235,36473,18
+DE,Sports,4026831,156344,92
+DE,Travel & Events,621894,12880,19
+FR,Autos & Vehicles,576494,25023,20
+FR,Comedy,6178086,271066,192
+FR,Education,886320,45352,14
+FR,Entertainment,23859385,1104272,183
+FR,Film & Animation,501418,24974,21
+FR,Gaming,2326047,120630,92
+FR,Howto & Style,1455610,67022,35
+FR,Music,35377230,1638349,211
+FR,News & Politics,1519560,43950,39
+FR,Nonprofits & Activism,64538,3855,8
+FR,People & Blogs,2345606,109668,96
+FR,Science & Technology,483091,23546,27
+FR,Sports,3039536,144422,52
+FR,Travel & Events,165014,5582,10
+GB,Autos & Vehicles,57089,3497,5
+GB,Comedy,2626169,114823,93
+GB,Education,1335572,67417,27
+GB,Entertainment,25627463,1243649,221
+GB,Film & Animation,996969,44490,46
+GB,Gaming,857238,39461,25
+GB,Howto & Style,220769,3667,9
+GB,Music,40887824,2004103,325
+GB,News & Politics,840229,28126,34
+GB,Nonprofits & Activism,5221,106,2
+GB,People & Blogs,1958992,71454,55
+GB,Pets & Animals,534194,34269,4
+GB,Science & Technology,111888,3257,9
+GB,Sports,3711041,183293,91
+GB,Travel & Events,347188,14285,4
+IN,Autos & Vehicles,46972,3543,1
+IN,Comedy,3449520,162897,84
+IN,Education,333359,19597,15
+IN,Entertainment,35569906,1684660,258
+IN,Film & Animation,771589,47107,17
+IN,Gaming,2904524,131985,99
+IN,Howto & Style,857548,40932,37
+IN,Music,31822521,1354168,258
+IN,News & Politics,226930,7348,19
+IN,Nonprofits & Activism,60385,2517,6
+IN,People & Blogs,494758,24031,23
+IN,Pets & Animals,100451,2610,3
+IN,Science & Technology,849784,28985,38
+IN,Sports,1481379,63588,33
+IN,Travel & Events,358550,14394,19
+JP,Comedy,4335240,197832,89
+JP,Education,183037,7060,13
+JP,Film & Animation,626461,31477,38
+JP,Gaming,547784,26232,28
+JP,Howto & Style,84678,4496,11
+JP,Music,16897671,766770,135
+JP,News & Politics,851844,43536,21
+JP,Nonprofits & Activism,25952,1372,5
+JP,People & Blogs,490412,23627,25
+JP,Pets & Animals,209670,7691,18
+JP,Science & Technology,198420,6878,13
+JP,Sports,2390940,112224,86
+JP,Travel & Events,495584,20180,18
+KR,Comedy,6021839,281648,50
+KR,Entertainment,24347349,1137208,239
+KR,Film & Animation,1160155,52606,47
+KR,Gaming,2518718,129148,71
+KR,Howto & Style,99234,2055,9
+KR,Music,33882067,1494870,279
+KR,News & Politics,221157,11253,12
+KR,Nonprofits & Activism,85666,4736,9
+KR,People & Blogs,538701,27377,34
+KR,Science & Technology,371844,10757,11
+KR,Sports,3711083,161858,89
+MX,Autos & Vehicles,81124,3054,10
+MX,Comedy,2270426,99053,52
+MX,Education,268359,12582,15
+MX,Entertainment,47430982,2293835,422
+MX,Film & Animation,893765,40385,42
+MX,Gaming,875094,36913,29
+MX,Howto & Style,744287,42328,28
+MX,Music,38822749,1784470,292
+MX,News & Politics,509081,17557,23
+MX,Nonprofits & Activism,573975,10880,8
+MX,People & Blogs,615488,27031,26
+MX,Sports,2609189,86070,37
+MX,Travel & Events,53539,3000,6
+RU,Autos & Vehicles,41846,2591,5
+RU,Comedy,2131277,97185,61
+RU,Education,1574556,69587,35
+RU,Entertainment,35139559,1874594,299
+RU,Film & Animation,263819,15204,16
+RU,Gaming,3545033,130411,97
+RU,Howto & Style,1221547,60698,28
+RU,Music,38009782,1678064,350
+RU,Nonprofits & Activism,255469,11497,7
+RU,Pets & Animals,254367,9808,20
+RU,Science & Technology,1090374,48280,29
+RU,Sports,1702500,67674,53
+US,Autos & Vehicles,878316,40492,25
+US,Comedy,1333263,56625,58
+US,Education,322423,15723,22
+US,Entertainment,27650426,1398945,199
+US,Film & Animation,440232,20445,22
+US,Howto & Style,570674,21462,36
+US,Music,25987967,1293016,221
+US,News & Politics,1593092,63280,61
+US,Nonprofits & Activism,157632,6545,6
+US,People & Blogs,1665442,77966,68
+US,Pets & Animals,468445,25063,22
+US,Science & Technology,507672,20457,35
+US,Sports,7569612,329420,198
+US,Travel & Events,457425,17588,27
