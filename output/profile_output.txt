@@ -1,7 +1,7 @@
 == CAvideos.csv ==
-wc -l row estimate : 1,001
-pandas row count   : 1,000  <-- authoritative
-  (discrepancy of 1 rows due to embedded newlines inside quoted fields)
+wc -l row estimate : 4,015
+pandas row count   : 4,000  <-- authoritative
+  (discrepancy of 15 rows due to embedded newlines inside quoted fields)
 columns=16
   video_id: dtype=str, nulls=0
   trending_date: dtype=str, nulls=0
@@ -18,16 +18,16 @@ columns=16
   comments_disabled: dtype=bool, nulls=0
   ratings_disabled: dtype=bool, nulls=0
   video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=1
+  description: dtype=str, nulls=6
 
 == CA_category_id.json ==
 items=20
   # {id, snippet.title, snippet.assignable}
 
 == DEvideos.csv ==
-wc -l row estimate : 1,004
-pandas row count   : 1,000  <-- authoritative
-  (discrepancy of 4 rows due to embedded newlines inside quoted fields)
+wc -l row estimate : 4,010
+pandas row count   : 4,000  <-- authoritative
+  (discrepancy of 10 rows due to embedded newlines inside quoted fields)
 columns=16
   video_id: dtype=str, nulls=0
   trending_date: dtype=str, nulls=0
@@ -44,16 +44,16 @@ columns=16
   comments_disabled: dtype=bool, nulls=0
   ratings_disabled: dtype=bool, nulls=0
   video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=1
+  description: dtype=str, nulls=15
 
 == DE_category_id.json ==
-items=25
+items=22
   # {id, snippet.title, snippet.assignable}
 
 == FRvideos.csv ==
-wc -l row estimate : 1,008
-pandas row count   : 1,000  <-- authoritative
-  (discrepancy of 8 rows due to embedded newlines inside quoted fields)
+wc -l row estimate : 4,006
+pandas row count   : 4,000  <-- authoritative
+  (discrepancy of 6 rows due to embedded newlines inside quoted fields)
 columns=16
   video_id: dtype=str, nulls=0
   trending_date: dtype=str, nulls=0
@@ -70,192 +70,192 @@ columns=16
   comments_disabled: dtype=bool, nulls=0
   ratings_disabled: dtype=bool, nulls=0
   video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=1
+  description: dtype=str, nulls=12
 
 == FR_category_id.json ==
-items=24
-  # {id, snippet.title, snippet.assignable}
-
-== GBvideos.csv ==
-wc -l row estimate : 951
-pandas row count   : 950  <-- authoritative
-  (discrepancy of 1 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=2
-
-== GB_category_id.json ==
-items=29
-  # {id, snippet.title, snippet.assignable}
-
-== INvideos.csv ==
-wc -l row estimate : 911
-pandas row count   : 910  <-- authoritative
-  (discrepancy of 1 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=2
-
-== IN_category_id.json ==
-items=28
-  # {id, snippet.title, snippet.assignable}
-
-== JPvideos.csv ==
-wc -l row estimate : 501
-pandas row count   : 500  <-- authoritative
-  (discrepancy of 1 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=4
-
-== JP_category_id.json ==
-items=22
-  # {id, snippet.title, snippet.assignable}
-
-== KRvideos.csv ==
-wc -l row estimate : 852
-pandas row count   : 850  <-- authoritative
-  (discrepancy of 2 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=4
-
-== KR_category_id.json ==
-items=18
-  # {id, snippet.title, snippet.assignable}
-
-== MXvideos.csv ==
-wc -l row estimate : 992
-pandas row count   : 990  <-- authoritative
-  (discrepancy of 2 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=4
-
-== MX_category_id.json ==
-items=23
-  # {id, snippet.title, snippet.assignable}
-
-== RUvideos.csv ==
-wc -l row estimate : 1,004
-pandas row count   : 1,000  <-- authoritative
-  (discrepancy of 4 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=1
-
-== RU_category_id.json ==
-items=22
-  # {id, snippet.title, snippet.assignable}
-
-== USvideos.csv ==
-wc -l row estimate : 1,002
-pandas row count   : 1,000  <-- authoritative
-  (discrepancy of 2 rows due to embedded newlines inside quoted fields)
-columns=16
-  video_id: dtype=str, nulls=0
-  trending_date: dtype=str, nulls=0
-  title: dtype=str, nulls=0
-  channel_title: dtype=str, nulls=0
-  category_id: dtype=int64, nulls=0
-  publish_time: dtype=str, nulls=0
-  tags: dtype=str, nulls=0
-  views: dtype=int64, nulls=0
-  likes: dtype=int64, nulls=0
-  dislikes: dtype=int64, nulls=0
-  comment_count: dtype=int64, nulls=0
-  thumbnail_link: dtype=str, nulls=0
-  comments_disabled: dtype=bool, nulls=0
-  ratings_disabled: dtype=bool, nulls=0
-  video_error_or_removed: dtype=bool, nulls=0
-  description: dtype=str, nulls=5
-
-== US_category_id.json ==
 items=27
   # {id, snippet.title, snippet.assignable}
 
-TOTAL TrendingRecord rows across all 10 files: 9,200
+== GBvideos.csv ==
+wc -l row estimate : 3,811
+pandas row count   : 3,800  <-- authoritative
+  (discrepancy of 11 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=6
+
+== GB_category_id.json ==
+items=31
+  # {id, snippet.title, snippet.assignable}
+
+== INvideos.csv ==
+wc -l row estimate : 3,649
+pandas row count   : 3,640  <-- authoritative
+  (discrepancy of 9 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=10
+
+== IN_category_id.json ==
+items=17
+  # {id, snippet.title, snippet.assignable}
+
+== JPvideos.csv ==
+wc -l row estimate : 2,003
+pandas row count   : 2,000  <-- authoritative
+  (discrepancy of 3 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=9
+
+== JP_category_id.json ==
+items=20
+  # {id, snippet.title, snippet.assignable}
+
+== KRvideos.csv ==
+wc -l row estimate : 3,407
+pandas row count   : 3,400  <-- authoritative
+  (discrepancy of 7 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=6
+
+== KR_category_id.json ==
+items=27
+  # {id, snippet.title, snippet.assignable}
+
+== MXvideos.csv ==
+wc -l row estimate : 3,973
+pandas row count   : 3,960  <-- authoritative
+  (discrepancy of 13 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=14
+
+== MX_category_id.json ==
+items=17
+  # {id, snippet.title, snippet.assignable}
+
+== RUvideos.csv ==
+wc -l row estimate : 4,013
+pandas row count   : 4,000  <-- authoritative
+  (discrepancy of 13 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=7
+
+== RU_category_id.json ==
+items=21
+  # {id, snippet.title, snippet.assignable}
+
+== USvideos.csv ==
+wc -l row estimate : 4,009
+pandas row count   : 4,000  <-- authoritative
+  (discrepancy of 9 rows due to embedded newlines inside quoted fields)
+columns=16
+  video_id: dtype=str, nulls=0
+  trending_date: dtype=str, nulls=0
+  title: dtype=str, nulls=0
+  channel_title: dtype=str, nulls=0
+  category_id: dtype=int64, nulls=0
+  publish_time: dtype=str, nulls=0
+  tags: dtype=str, nulls=0
+  views: dtype=int64, nulls=0
+  likes: dtype=int64, nulls=0
+  dislikes: dtype=int64, nulls=0
+  comment_count: dtype=int64, nulls=0
+  thumbnail_link: dtype=str, nulls=0
+  comments_disabled: dtype=bool, nulls=0
+  ratings_disabled: dtype=bool, nulls=0
+  video_error_or_removed: dtype=bool, nulls=0
+  description: dtype=str, nulls=16
+
+== US_category_id.json ==
+items=20
+  # {id, snippet.title, snippet.assignable}
+
+TOTAL TrendingRecord rows across all 10 files: 36,800

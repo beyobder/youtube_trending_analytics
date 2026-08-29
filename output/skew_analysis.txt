@@ -1,58 +1,58 @@
 === Partition balance (country_code) ===
 Country   Predicted     Actual      % vs predicted  
-CA        920           1,000                 +8.7%
-DE        920           1,000                 +8.7%
-FR        920           1,000                 +8.7%
-RU        920           1,000                 +8.7%
-US        920           1,000                 +8.7%
-MX        920           990                   +7.6%
-GB        920           950                   +3.3%
-IN        920           910                   -1.1%
-KR        920           850                   -7.6%
-JP        920           500                  -45.7%
+CA        3,680         4,000                 +8.7%
+DE        3,680         4,000                 +8.7%
+FR        3,680         4,000                 +8.7%
+RU        3,680         4,000                 +8.7%
+US        3,680         4,000                 +8.7%
+MX        3,680         3,960                 +7.6%
+GB        3,680         3,800                 +3.3%
+IN        3,680         3,640                 -1.1%
+KR        3,680         3,400                 -7.6%
+JP        3,680         2,000                -45.7%
 
-Smallest partition: JP (500 rows)
-Largest partition:  CA (1,000 rows)
+Smallest partition: JP (2,000 rows)
+Largest partition:  CA (4,000 rows)
 Max/min spread: 2.00x
 
 === Category-level skew within each country (top 3 by total_views) ===
   CA:
-    Music                    total_views=48,632,534
-    Entertainment            total_views=17,299,518
-    Sports                   total_views=3,049,776
+    Music                    total_views=206,485,371
+    Entertainment            total_views=87,720,652
+    Sports                   total_views=13,999,080
   DE:
-    Entertainment            total_views=62,538,654
-    Comedy                   total_views=10,018,493
-    Sports                   total_views=4,026,831
+    Entertainment            total_views=161,785,610
+    Music                    total_views=105,752,372
+    Gaming                   total_views=14,646,655
   FR:
-    Music                    total_views=35,377,230
-    Entertainment            total_views=23,859,385
-    Comedy                   total_views=6,178,086
+    Music                    total_views=197,284,209
+    Entertainment            total_views=134,031,252
+    Comedy                   total_views=14,046,027
   GB:
-    Music                    total_views=40,887,824
-    Entertainment            total_views=25,627,463
-    Sports                   total_views=3,711,041
+    Music                    total_views=177,925,258
+    Entertainment            total_views=58,211,462
+    Sports                   total_views=13,660,331
   IN:
-    Entertainment            total_views=35,569,906
-    Music                    total_views=31,822,521
-    Comedy                   total_views=3,449,520
+    Music                    total_views=212,256,165
+    Entertainment            total_views=85,571,909
+    Comedy                   total_views=19,936,592
   JP:
-    Music                    total_views=16,897,671
-    Comedy                   total_views=4,335,240
-    Sports                   total_views=2,390,940
+    Music                    total_views=176,705,909
+    Gaming                   total_views=5,383,787
+    News & Politics          total_views=3,338,125
   KR:
-    Music                    total_views=33,882,067
-    Entertainment            total_views=24,347,349
-    Comedy                   total_views=6,021,839
+    Entertainment            total_views=120,455,225
+    Music                    total_views=63,372,555
+    Comedy                   total_views=16,578,942
   MX:
-    Entertainment            total_views=47,430,982
-    Music                    total_views=38,822,749
-    Sports                   total_views=2,609,189
+    Entertainment            total_views=272,825,074
+    Gaming                   total_views=15,333,267
+    People & Blogs           total_views=7,675,455
   RU:
-    Music                    total_views=38,009,782
-    Entertainment            total_views=35,139,559
-    Gaming                   total_views=3,545,033
+    Entertainment            total_views=161,112,634
+    Music                    total_views=97,319,631
+    Comedy                   total_views=30,567,303
   US:
-    Entertainment            total_views=27,650,426
-    Music                    total_views=25,987,967
-    Sports                   total_views=7,569,612
+    Music                    total_views=252,766,344
+    Entertainment            total_views=143,328,650
+    Sports                   total_views=5,446,141

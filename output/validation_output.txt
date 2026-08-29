@@ -1,14 +1,14 @@
 === Row-count check before/after join (per country) ===
-  CA: 1,000 -> 1,000  OK
-  DE: 1,000 -> 1,000  OK
-  FR: 1,000 -> 1,000  OK
-  GB: 950 -> 950  OK
-  IN: 910 -> 910  OK
-  JP: 500 -> 500  OK
-  KR: 850 -> 850  OK
-  MX: 990 -> 990  OK
-  RU: 1,000 -> 1,000  OK
-  US: 1,000 -> 1,000  OK
+  CA: 4,000 -> 4,000  OK
+  DE: 4,000 -> 4,000  OK
+  FR: 4,000 -> 4,000  OK
+  GB: 3,800 -> 3,800  OK
+  IN: 3,640 -> 3,640  OK
+  JP: 2,000 -> 2,000  OK
+  KR: 3,400 -> 3,400  OK
+  MX: 3,960 -> 3,960  OK
+  RU: 4,000 -> 4,000  OK
+  US: 4,000 -> 4,000  OK
 All countries match: True
 
 === Parallel (processes=2) vs sequential ===
